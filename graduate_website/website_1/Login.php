@@ -1,5 +1,5 @@
 <?php
- print(1);
+
  if(isset($_POST['Username'])&& isset($_POST['Password']))
  {
 	 require_once "conn.php";
