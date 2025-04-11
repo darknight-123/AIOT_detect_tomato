@@ -9,7 +9,7 @@
 			$Day   = $_POST['Day'];
 			$Class = $_POST['Class'];
 			
-			if($Class == 'All') {
+			if ($Class == 'All') {
 				$sql = "select * from conditions where RaspberryID = '$RaspberryID' and Day = '$Day'";
 			}
 			else {
